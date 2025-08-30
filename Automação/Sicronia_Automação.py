@@ -9,7 +9,7 @@ import csv
 
 PortaESP32='COM3'
 VelocidadeTransmissao=115200
-PM100D_ENDERECO='USB0::0x1313::0x8078::PM002850::INSTR'
+PM100D_ENDERECO=  #INFORME SEU ENDEREÇO VISA DO SEU INSTRUMENTO DE MEDIÇÃO AQUI!!!!!!!!!!!!!
 NumeroDeMedidas=200
 MilimetroPorPasso=1.0
 PosicaoInicial=0
@@ -107,4 +107,5 @@ if __name__ == "__main__":
         print("Gerando o gráfico...")
         grafico(distancias_coletadas, potencias_coletadas)
     else:
+
         print("\nNenhum dado foi coletado. O gráfico não será gerado.")
